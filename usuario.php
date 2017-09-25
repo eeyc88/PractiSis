@@ -2,21 +2,21 @@
 
 class Usuario
 {
-    private $idUsuario;
+    private $idusuario;
     private $nombre;
     private $clave;
 
-     function __construct($idUsuario, $nombre, $clave) {
-       $this->idUsuario = $idUsuario;
+     function __construct($idusuario, $nombre, $clave) {
+       $this->idusuario = $idusuario;
        $this->nombre = $nombre;
        $this->clave = $clave;
      }
 
-     function setIdUsuario($idUsuario){
-       $this->idUsuario = $idUsuario;
+     function setIdusuario($idusuario){
+       $this->idusuario = $idusuario;
      } 
-     function getIdUsuario(){
-       return $this->idUsuario;
+     function getIdusuario(){
+       return $this->idusuario;
      } 
      function setNombre($nombre){
 	       $this->nombre = $nombre;       

@@ -34,7 +34,7 @@ en la tabla Usuario que se encuentra en la base de datos. */
 ?>
 
 
-	/* se utiliza código script para mostrar un popup de acceso valido */
+	<!-- se utiliza código script para mostrar un popup de acceso valido -->
 
 		<script>
 			alert('Acceso Exitoso');
@@ -45,7 +45,7 @@ en la tabla Usuario que se encuentra en la base de datos. */
 	}/* cierre de la instruccion ciclica foreach */
 ?>
 
-	/* código script para negar el acceso */
+	<!-- código script para negar el acceso -->
 
 		<script>
 			alert('Acceso Denegado');
