@@ -32,8 +32,15 @@ session_start();
 /* traigo otro dato mediante POST */
 
 	echo "Bienvenido usuario ".$_SESSION['USER']." su clave es: ".$_SESSION['PASS'];
-	echo "<a href='logout.php'><span class='glyphicon glyphicon-log-out'></span>Salir</a>";
+	echo "<a href='logout.php'><span class='glyphicon glyphicon-log-out'></span> Salir </a>";
 ?>
 
+<!-- utilizare un formulario para grabar datos en la base -->
+
+	<form method="POST" action="datosValidados.php" id="idusuario">
+		<label> Nombre: <input type="text" name="nombre" class="form-control"> </label>
+		<label> Apellido: <input type="text" name="apellido" class="form-control"></label>
+		<input type="submit" value="Grabar" class="btn btn-success">
+	</form>
 </body>
 </html>

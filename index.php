@@ -26,9 +26,9 @@ session_start();
 	}
 ?>
 	<form method="POST" name="flogin" id="flogin" action="validacion.php">
- 		<label> Nombre de Usuario: </label>
+ 		<label> Nombre de Usuario: (admin)</label>
 		<input type="text" name="nombre" id="nombre" class="form-control">
-		<label> Contraseña: </label>
+		<label> Contraseña: (12345)</label>
 		<input type="password" name="clave" id="clave" class="form-control">
 		<input type="submit" value="Conectarse" class="btn btn-success"/>
 	</form>

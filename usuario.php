@@ -2,15 +2,22 @@
 
 class Usuario
 {
+
+ /* atributos de la clase Usuario */
+
     private $idusuario;
     private $nombre;
     private $clave;
+
+ /* constructor de la clase Usuario */
 
      function __construct($idusuario, $nombre, $clave) {
        $this->idusuario = $idusuario;
        $this->nombre = $nombre;
        $this->clave = $clave;
      }
+
+ /* metodos getters y setters de la clase Usuario */
 
      function setIdusuario($idusuario){
        $this->idusuario = $idusuario;
