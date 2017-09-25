@@ -15,7 +15,7 @@ session_start();
 </head>
 <body>
 	<div class="jumbotron boxlogin" >
-	<img src="../images/logo.png" alt="JARE Solutions" title="JARE Soluions" style="width:279px;height:47px;">
+	<img src="../images/logo.png" alt="LOGIN" title="LOGIN" style="width:279px;height:47px;">
 
 <!-- en este fragmento de código php se pregunta que si existe alguna sesion activa, caso contrario se ingresa normalmente al formulario --> 
 <?php

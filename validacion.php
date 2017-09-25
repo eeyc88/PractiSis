@@ -30,6 +30,7 @@ en la tabla Usuario que se encuentra en la base de datos. */
 		if(($c->getNombre()==$name)&&($c->getClave()==$password)){
 			session_start();
 			$_SESSION['USER'] = $name;
+			$_SESSION['PASS'] = $password;
 ?>
 
 
@@ -48,5 +49,5 @@ en la tabla Usuario que se encuentra en la base de datos. */
 
 		<script>
 			alert('Acceso Denegado');
-			window.location = "../index.php";
+			window.location = "index.php";
 		</script>
